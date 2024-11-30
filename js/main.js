@@ -11,7 +11,7 @@ function addDepot(solde, depot) {
     return newSolde
 }
 
-console.log(addDepot(solde,depot))
+console.log(addDepot(solde, depot))
 
 
 // Retrait argent
@@ -21,16 +21,15 @@ function retraitSolde(solde, retrait) {
     return soldeAfterRetrait
 }
 
-console.log(retraitSolde(solde,retrait))
+console.log(retraitSolde(solde, retrait))
 
 
 // Calcules intérets
-function soldeInteret(solde,tauxInteret){
+function soldeInteret(solde, tauxInteret){
     let soldeAfterInteret = (solde*tauxInteret)+solde
-    soldeAfterInteret = Math.round(soldeAfterInteret)
     return soldeAfterInteret
 }
 
-console.log("Intérêts de 3% ajoutés. Nouveau solde : " + soldeInteret(solde,tauxInteret) + " euros")
+console.log("Intérêts de 3% ajoutés. Nouveau solde : " + soldeInteret(solde, tauxInteret) + " euros")
 
 
