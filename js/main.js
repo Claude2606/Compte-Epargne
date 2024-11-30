@@ -63,6 +63,3 @@ console.log("Intérêts de 3% ajoutés. Nouveau solde: " + newsoldeWithInteret +
 historique.push("Intérêts de 3% ajouté a votre solde");
 
 console.table(historique);
-
-
-
