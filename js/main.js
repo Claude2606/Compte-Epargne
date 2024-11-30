@@ -62,5 +62,7 @@ let newsoldeWithInteret = (solde*tauxInteret)+solde;
 console.log("Intérêts de 3% ajoutés. Nouveau solde: " + newsoldeWithInteret + " euros");
 historique.push("Intérêts de 3% ajouté a votre solde");
 
+console.table(historique);
+
 
 
