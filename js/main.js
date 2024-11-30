@@ -24,7 +24,6 @@ function retraitSolde(solde, retrait) {
     } else {
         return Message = "Solde insuffisant !";
     }
-
 }
 
 historique.push("Retrait de" + retrait + "euros sur votre compte");
