@@ -1,5 +1,5 @@
 // Déclaration Variables
-const tauxIntere = 0.03;
+const tauxInteret = 0.03;
 let solde = 1000;
 let depot = 200;
 let retrait = 150;
